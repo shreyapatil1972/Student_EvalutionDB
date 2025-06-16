@@ -8,7 +8,7 @@ require('./config/db'); // Sequelize DB connection
 const studentRoute = require('./routes/studentRoutes') 
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 7000;
  
 app.use(express.json());
 app.use(cors()); 
